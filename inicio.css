@@ -1,0 +1,132 @@
+/*  @media screen and (max-width: 640px) {
+  body {
+    orientation: portrait;
+    }
+}
+@media screen and (min-width: 1280px) {
+  body {
+    orientation: landscape;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+  body {
+    orientation: landscape;}  */
+
+header {
+  background-color: red;
+  color: black;
+  width: 100%;
+  margin-top: 1px;
+  padding: 30px;
+  left: 0%;
+}
+
+.nav {
+  background-color: rgb(252, 71, 71);
+  color: black;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 20px;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+body {
+  background-color: blue;
+  width: 100%;
+}
+.fa-regular {
+  color: black;
+}
+.animate_animated {
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 300%;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
+img {
+  margin-left: 140px;
+  image-orientation: center;
+  width: 60%;
+  height: 60%;
+  padding-left: 80px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200%;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+}
+
+p,
+.alcohol {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  margin-left: 20%;
+}
+
+.con-alcohol {
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50 px;
+  font-style: normal;
+  font-weight: 200;
+  color: white;
+  margin-left: 20%;
+  justify-content: flex-start;
+}
+p,
+.sin {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  margin-left: 50%;
+}
+.sin-alcohol {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50 px;
+  font-style: normal;
+  font-weight: 200;
+  color: white;
+  margin-left: 50%;
+  align-items: center;
+  padding-bottom: 10px;
+  justify-content: flex-end;
+}
+
+footer {
+  background-color: red;
+  color: black;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 25px;
+  text-decoration: none;
+}
+
+.redsoc {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
